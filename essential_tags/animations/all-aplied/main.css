@@ -1,0 +1,41 @@
+.element {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    animation:
+            pulse 3s infinite alternate,
+            nudge 5s infinite alternate;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: green;
+        border-radius: 0%;
+    }
+    50% {
+        background-color: greenyellow;
+        border-radius: 50%;
+    }
+    100% {
+        background-color: yellow;
+        border-radius: 100%;
+    }
+}
+
+@keyframes nudge {
+    0%, 100% {
+      transform: translate(0,0);
+    }
+    50% {
+        transform: translate(0,150px);
+    }
+    80% {
+        transform: translate(0,-150px);
+    }
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

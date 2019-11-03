@@ -1,0 +1,43 @@
+
+
+.page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.cen {
+    flex-flow: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border-radius: 25%;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+body {
+    /*border: 10px solid hotpink;*/
+    /*background-color: aqua;*/
+
+}
+
+html{
+    border: 1px solid black;
+    background-image: url("../Layout-Solution/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-origin: border-box;
+    background-attachment: scroll;
+}

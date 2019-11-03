@@ -1,0 +1,15 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: hotpink;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    transition: all 1s steps(4,start);
+    padding: 20px;
+}
+
+.box:hover {
+    background-color: aqua;
+    padding: 20px;
+}
